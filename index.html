@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  <title>Nel Portfolio</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="max__width">
+      <div class="logo">
+        <a href="">A<span>/</span>H</a>
+      </div>
+      <div class="navbar__btn" id="mobile-menu">
+        <span class="bar__option">Menu</span>
+        <div class="bar__continer">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+      <ul class="menu">
+        <li><a href="#">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-----Hero Page------->
+  <section class="hero" id="home">
+    <div class="max__width">
+      <div class="hero__content">
+        <h1 class="title_1">Hi,   I'm</h1>
+        <h1 class="title_2">Arnel</h1>
+        <h2 class="sub_title">Free Lance <span>Developer</span></h2>
+    </div>
+  </section>
+  <section class="about" id="about">
+    <div class="max__width">
+      <h1 class="title">About <span>me</span></h1>
+      <div class="about__content">
+        <div class="image__content">
+          <img class="image__left" src="./images/arnel-leftside.png" alt="">
+          <img class="image__right" src="./images/arnel-rightside.png" alt="">
+        </div>
+        <div class="text__content">
+          <h2 class="text">I am Arnel.
+            I am a freelance <span class="nobr">web developer</span></h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quasi rerum, magni nisi esse delectus unde obcaecati in, molestiae eveniet odit cumque quas vitae, saepe dicta accusamus temporibus perspiciatis. Labore.</p>
+          <a href="#">My Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="services" id="services">
+    <div class="max__width">
+      <h1 class="title">My <spam>Services</spam></h1>
+      <div class="services__container">
+        <div class="box__container">
+          <div class="box">
+            <h2 class="text">Web Design</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Qui aperiam vel eum eos reiciendis, cupiditate sed. 
+              Praesentium quae non eveniet sapiente officia, est voluptatem adipisci. 
+              Voluptate cum aut ab accusantium.</p>
+              <img class="gallery" src="./images/web.png" alt="">
+          </div>
+        </div>
+        <div class="box__container">
+          <div class="box">
+            <h2 class="text">App Design</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+              Qui aperiam vel eum eos reiciendis, cupiditate sed. 
+              Praesentium quae non eveniet sapiente officia, est voluptatem adipisci. 
+              Voluptate cum aut ab accusantium.</p>
+              <img class="gallery" src="./images/code.jpg" alt="">
+          </div>
+        </div>
+        <div class="box__container">
+          <div class="box">
+            <h2 class="text">Advertising</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+               Qui aperiam vel eum eos reiciendis, cupiditate sed. 
+               Praesentium quae non eveniet sapiente officia, est voluptatem adipisci. 
+               Voluptate cum aut ab accusantium.</p>
+            <img class="gallery" src="./images/advertisment.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <div class="max__width">
+      <h1 class="title">Contact</h1>
+      <div class="contact__container">
+        <div class="p_contact">
+          <h6 class="p_title">phone</h6>
+          <p>+44 74 79 31 89 40</p>
+
+          <h6 class="p_title">email</h6>
+          <p>nelly02d@gmail.com</p>
+
+          <h6 class="p_title">skype</h6>
+          <p>nelly02d</p>
+
+          <h6 class="p_title">social</h6>
+
+          <div class="icons">
+            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram-square"></i>
+          </div>
+        </div>
+        <div class="comment">
+          <form>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" name="firstname" placeholder="Your name..">
+
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email" placeholder="Your email..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" type="text" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+
+            <input id="submit" type="submit" name="" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+  </footer>
+  <a href="#" class="gotop"><i class="fas fa-arrow-circle-up"></i></a>
+</body>
+</html>
